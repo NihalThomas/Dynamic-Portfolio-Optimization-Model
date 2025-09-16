@@ -1,4 +1,4 @@
-# Professional Usage Guide for Dynamic Portfolio Optimization Model
+# Usage Guide for Dynamic Portfolio Optimization Model
 
 ## Overview
 This model implements a dynamic portfolio optimization strategy for a basket of cryptocurrencies, aiming to maximize risk-adjusted returns by targeting a specific annualized volatility. It uses an Exponentially Weighted Moving Average (EWMA) covariance matrix, Ledoit-Wolf shrinkage, tangency portfolio weights, and volatility scaling, with periodic rebalancing and transaction cost considerations. The model compares its performance against a Bitcoin (BTC) benchmark.
